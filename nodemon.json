@@ -1,0 +1,7 @@
+{
+    "watch": [
+        "~/server/*.js",
+        "~/server/api/*/*.js",
+        "~/server/database/*.js"
+    ]
+}

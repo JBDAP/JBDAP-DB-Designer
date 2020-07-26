@@ -1,0 +1,39 @@
+{
+  "name": "jbdap-db-designer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "export": "nuxt export",
+    "serve": "nuxt serve",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.11.0",
+    "ant-design-vue": "^1.6.2",
+    "axios": "^0.19.2",
+    "cross-env": "^7.0.2",
+    "fastify": "^3.0.2",
+    "fastify-multipart": "^2.0.3",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.19",
+    "lodash-id": "^0.14.0",
+    "lowdb": "^1.0.0",
+    "moment": "^2.27.0",
+    "nodemon": "^2.0.4",
+    "nuxt": "^2.13.0",
+    "vue-clipboard2": "^0.3.1"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.3",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^26.0.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "vue-jest": "^3.0.4"
+  }
+}
